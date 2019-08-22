@@ -4,7 +4,9 @@
   "description": "8-22 / Andrew Jessen-Tyler and Fabian Lema-Canar / Project Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "mocha --require test/setup.js",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,11 @@
     "express": "^4.17.1",
     "helmet": "^3.20.0",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   }
 }
