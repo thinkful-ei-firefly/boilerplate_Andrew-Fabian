@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate_Andrew-Fabian",
+  "version": "1.0.0",
+  "description": "8-22 / Andrew Jessen-Tyler and Fabian Lema-Canar / Project Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "morgan": "^1.9.1"
+  }
+}
