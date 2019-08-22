@@ -1,24 +1,18 @@
 {
-  "name": "boilerplate_Andrew-Fabian",
+  "name": "express-boilerplate",
   "version": "1.0.0",
-  "description": "8-22 / Andrew Jessen-Tyler and Fabian Lema-Canar / Project Boilerplate",
+  "description": "Project Boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
     "test": "mocha --require test/setup.js",
-    "dev": "nodemon src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian.git"
+    "dev": "nodemon src/server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian/issues"
-  },
-  "homepage": "https://github.com/thinkful-ei-firefly/boilerplate_Andrew-Fabian#readme",
   "dependencies": {
     "chai": "^4.2.0",
     "cors": "^2.8.5",
